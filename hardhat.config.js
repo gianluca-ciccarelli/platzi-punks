@@ -1,5 +1,5 @@
 require("@nomiclabs/hardhat-waffle");
-require('dotnev').config()
+require('dotenv').config()
 
 const {DEPLOYER_SIGNER_KEY, INFURA_PROJECT_ID} = process.env
 
